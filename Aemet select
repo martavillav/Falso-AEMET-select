@@ -1,0 +1,28 @@
+<!doctype HTML>
+<html>
+<head>
+    <title> Falso aemet </title>
+</head>
+<body>
+    <form method=get action="http://www.aemet.es/es/buscador">
+        Ver el clima de <br>
+    
+    <select name="str" id="ciudad">
+        <option value="0">Seleccione la ciudad</option>
+        <option value="Móstoles">Móstoles</option>
+        <option value="Fuenlabrada">Fuenlabrada</option>
+        <option value="Madrid">Madrid</option>
+
+
+    </select>
+        
+
+
+
+        <input type="submit" value="Ver"/>
+    </form>
+
+
+</body>
+
+</html>
